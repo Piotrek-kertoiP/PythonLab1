@@ -12,7 +12,8 @@ while True:
 	except ValueError:
 		print("Wrong value of lower boundary.  Try again...")
 		if termination():
-			break	
+			break
+		continue
 
 	try:
 		b = int( input("Please specify the upper boundary: ") )
