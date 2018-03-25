@@ -28,7 +28,7 @@ while True:
 		c = random.randint(a, b)
 		print(c)
 	else:
-		print("Value of lower boundary exceeds the vaule of upper boundary.  Try again...")
+		print("Value of lower boundary exceeds the value of upper boundary.  Try again...")
 
 	if termination():
 		break	
